@@ -21,8 +21,8 @@ public class EventRestController {
     @RequestMapping(value = "/receive", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public SendMessage receiveEvent(@RequestBody String json) {
-        LOG.debug("Receive Request");
-        LOG.debug(json);
+        LOG.error("Receive Request");
+        LOG.error(json);
         return new SendMessage();
     }
 }
