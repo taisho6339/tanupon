@@ -1,4 +1,4 @@
-package com.taishonet.tanupon;
+package com.taishonet.tanupon.conf;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

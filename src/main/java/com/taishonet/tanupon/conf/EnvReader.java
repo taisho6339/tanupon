@@ -1,5 +1,6 @@
-package com.taishonet.tanupon;
+package com.taishonet.tanupon.conf;
 
+import com.taishonet.tanupon.conf.Environments;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

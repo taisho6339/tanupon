@@ -1,4 +1,4 @@
-package com.taishonet.tanupon;
+package com.taishonet.tanupon.model;
 
 /**
  * Created by taisho6339 on 16/06/12.

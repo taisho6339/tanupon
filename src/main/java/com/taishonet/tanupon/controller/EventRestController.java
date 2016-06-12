@@ -1,5 +1,6 @@
-package com.taishonet.tanupon;
+package com.taishonet.tanupon.controller;
 
+import com.taishonet.tanupon.model.SendMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;

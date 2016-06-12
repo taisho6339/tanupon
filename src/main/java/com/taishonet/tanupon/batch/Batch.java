@@ -1,5 +1,6 @@
-package com.taishonet.tanupon;
+package com.taishonet.tanupon.batch;
 
+import com.taishonet.tanupon.conf.EnvReader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -15,7 +16,7 @@ public class Batch {
     @Autowired
     EnvReader reader;
 
-    @Scheduled(cron = "30 * * * * *") //TODO どこかで一括管理するようにする
+    //    @Scheduled(cron = "30 * * * * *") //TODO どこかで一括管理するようにする
     public void runJob() {
         final String url = "https://trialbot-api.line.me/v1/events";
 
