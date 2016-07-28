@@ -11,7 +11,16 @@ import java.util.Map;
 @Component
 @ConfigurationProperties(prefix = "envs")
 public class Environments {
+    //    private Map<String, String> wunder;
     private Map<String, String> line;
+
+//    public Map<String, String> getWunder() {
+////        return wunder;
+////    }
+
+//    public void setWunder(Map<String, String> wunder) {
+//        this.wunder = wunder;
+//    }
 
     public Map<String, String> getLine() {
         return line;

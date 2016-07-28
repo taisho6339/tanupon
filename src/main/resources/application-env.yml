@@ -1,0 +1,8 @@
+envs:
+    wunder:
+        client-id: c2af5839ffc4920262b5
+        access-token: 350acf75327a2a97885b32ccdf7df3db74ed9645817ecd8f2bc6289c3d32
+    line:
+        line-channel-id: 1470565423
+        line-channel-secret: 16319edc84b7c796296c62e53f8db501
+        line-trusted-user-with-acl: u1a437d30cb0545b11dd8d3a06b17c80d

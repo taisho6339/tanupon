@@ -1,6 +1,5 @@
 package com.taishonet.tanupon.conf;
 
-import com.taishonet.tanupon.conf.Environments;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -28,4 +27,19 @@ public class EnvReader {
         Map<String, String> env = environments.getLine();
         return env.get("line-trusted-user-with-acl");
     }
+
+//    public String getWunderClientId() {
+//        Map<String, String> env = environments.getWunder();
+//        return env.get("client-id");
+//    }
+//
+//    public String getWunderAccessToken() {
+//        Map<String, String> env = environments.getWunder();
+//        return env.get("access-token");
+//    }
+//
+//    public String getWunderClientSecret() {
+//        Map<String, String> env = environments.getWunder();
+//        return env.get("client-secret");
+//    }
 }

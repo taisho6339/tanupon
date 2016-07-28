@@ -1,6 +1,5 @@
 #example of application.yml
-#これは開発用の設定です。
-server.port: 443
+server.port: 8080
 server.ssl.key-store: keystore.p12
 server.ssl.key-store-password: taisho6339
 server.ssl.keyStoreType: PKCS12
@@ -17,6 +16,7 @@ spring:
     thymeleaf:
         cache: false
 logging:
+    path: logs/tanupon.log
     level:
         org.hibernate.SQL: ERROR
         org.hibernate.type: ERROR
